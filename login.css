@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071D49;
+}
+
+.container {
+    width: 320px;
+    height: 270px;
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px black solid
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #1D2164;
+    font-size: 50px;
+    font-family: Instrument Sans;
+    font-weight: 700;
+    line-height: 1px;
+    word-wrap: break-word
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    color: #1D2164;
+    font-size: 25px;
+    font-family: Instrument Sans;
+    font-weight: 400;
+    line-height: 41px;
+    word-wrap: break-word
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    color: #1D2164;
+    font-size: 25px;
+    font-family: Instrument Sans;
+    font-weight: 400;
+    line-height: 41px;
+    word-wrap: break-word
+}
+
+form button {
+    width: 100%;
+    background-color: #1D2164;
+    color: white;
+    border: none;
+    font-family: Instrument Sans;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Instrument Sans;
+    font-weight: 400;
+    line-height: 41px;
+    word-wrap: break-word
+}
+
+form button:hover {
+    background-color: #F2A900;
+}
